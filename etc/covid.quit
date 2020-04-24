@@ -1,0 +1,31 @@
+function quitModule()
+
+    etc_tlbx  = get_absolute_file_path("covid.quit");
+    etc_tlbx  = getshortpathname(etc_tlbx);
+    root_tlbx = strncpy( etc_tlbx, length(etc_tlbx)-length("\etc\") );
+
+    // Remove macros
+    if(isdef("covidlib")) then
+        m = libraryinfo("covidlib");
+        clear covidlib;
+        clear(m);
+    end
+
+    // Remove Preferences GUI
+    // =============================================================================
+    if getscilabmode() == "STD" then
+        removeModulePreferences(root_tlbx);
+    end
+
+endfunction
+
+// Remove macros
+if(isdef("covidlib")) then
+    m = libraryinfo("covidlib");
+    clear covidlib;
+    clear(m);
+    clear m;
+end
+
+quitModule();
+clear quitModule;

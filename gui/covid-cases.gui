@@ -1,0 +1,67 @@
+{
+  "children": [
+    {
+      "children": [
+        {
+          "children": [],
+          "fontangle": "normal",
+          "fontname": "Tahoma",
+          "fontsize": 11,
+          "fontweight": "normal",
+          "position": [
+            15,
+            355,
+            195,
+            30
+          ],
+          "string": [],
+          "style": "popupmenu"
+        }
+      ],
+      "fontangle": "normal",
+      "fontname": "Tahoma",
+      "fontsize": 11,
+      "fontweight": "normal",
+      "position": [
+        10,
+        10,
+        225,
+        435
+      ],
+      "relief": "flat",
+      "style": "frame"
+    },
+    {
+      "children": [
+        {
+          "children": [],
+          "position": [
+            0,
+            0,
+            355,
+            435
+          ],
+          "style": "axes"
+        }
+      ],
+      "fontangle": "normal",
+      "fontname": "Tahoma",
+      "fontsize": 11,
+      "fontweight": "normal",
+      "position": [
+        245,
+        10,
+        355,
+        435
+      ],
+      "style": "frame"
+    }
+  ],
+  "position": [
+    0,
+    0,
+    610,
+    460
+  ],
+  "style": "figure"
+}
