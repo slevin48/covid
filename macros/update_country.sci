@@ -13,7 +13,7 @@ function update_country()
         // plot(x,my)
         a.children(1).children(2).children(1).data(:,2)=my;
         a.children(1).data_bounds=[1,0;93,max(my)];
-        // a.children(1).children(1) --> legend
-        legend(c.string(c.value),"in_upper_left");
+        a.children(1).children(1).text = c.string(c.value) //legend
+        // legend(c.string(c.value),"in_upper_left");
         // disp(y)
 endfunction

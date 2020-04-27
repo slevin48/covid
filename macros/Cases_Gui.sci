@@ -109,7 +109,7 @@ function Cases_Gui()
     my = confirmed(country == c.string(c.value),:);
     x = 1:size(my,'*');
     plot(x,my)
-    // xticks2string(header(5:$),10)
+    xticks2string(header(5:$),10)
     xtitle("Covid-19 Confirmed Cases in "+c.string(c.value),"Date","Cases")
     legend(c.string(c.value),"in_upper_left");
     xgrid()
