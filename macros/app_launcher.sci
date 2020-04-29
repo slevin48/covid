@@ -11,6 +11,7 @@ function app_launcher()
 	// Background and text
 	demo_app.figure_name     = gettext("Covid-19 Apps");
     demo_app.visible = "off";
+    demo_app.resize = "off"
 
     btns = [ ...
         "Covid-19 cases", "Cases_Gui"; ...
